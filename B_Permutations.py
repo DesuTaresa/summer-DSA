@@ -17,8 +17,8 @@ for p in permutations(range(k)):
 
         values.append(int(new_num))
 
-    diff = max(values) - min(values)
+    diffs = max(values) - min(values)
 
-    ans = min(ans, diff)
+    ans = min(ans, diffs)
 
 print(ans)
